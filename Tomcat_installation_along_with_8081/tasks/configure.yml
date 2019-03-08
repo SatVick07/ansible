@@ -1,0 +1,7 @@
+---
+  - 
+    name: changing port
+    sudo: yes
+    copy: src=server.xml dest=/etc/tomcat8/server.xml
+    notify: restart tomcat service
+

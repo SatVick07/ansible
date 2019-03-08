@@ -1,0 +1,6 @@
+---
+  - 
+    name: starting tomcat service
+    sudo: yes
+    service: name= tomcat8 state= started
+

@@ -1,0 +1,6 @@
+---
+# handlers file for Tomcat_installation_along_with_8081
+  - 
+    name: restart tomcat service
+    service: name=tomcat8 state=restarted
+

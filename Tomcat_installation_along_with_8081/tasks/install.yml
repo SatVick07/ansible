@@ -1,0 +1,8 @@
+---
+  - name: install tomcat
+    sudo: yes
+    apt:
+    - name: tomcat8
+      state: latest
+
+
